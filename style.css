@@ -7,13 +7,18 @@ body {
   header {
     background-color: #111;
     text-align: center;
-    padding: 20px 0; 
+    overflow: hidden;
+    height: 300px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
   .header-img {
-    width: 100%;
-    max-width: 1200px; 
-    height: auto;
+    height: 100%;
+    width: auto;
+    object-fit: cover;
+    object-position: center;
   }
   
   main {

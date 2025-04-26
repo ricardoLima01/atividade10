@@ -6,7 +6,7 @@ body {
   
   header {
     background-color: #111;
-    height: 300px; /* Altura do cabeçalho */
+    height: 300px;
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -14,9 +14,8 @@ body {
   }
   
   .header-img {
-    width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
   }
   
   main {

@@ -1,4 +1,4 @@
-body {
+body{
   margin: 0;
   display: flex;
   flex-direction: column; 
@@ -7,13 +7,13 @@ body {
   background-color: white;
 }
 
-main {
+main{
   display: flex;
   flex-direction: row;
   width: 100%;
 }
 
-.cabecalho {
+.cabecalho{
   width: 100%;
 }
 
@@ -24,7 +24,7 @@ main {
   display: block;
 }
 
-.sidebar {
+.sidebar{
   width: 320px; 
   background-color: #f0f0f0;
   padding: 10px;
@@ -34,7 +34,7 @@ main {
   border-radius: 10px;
 }
 
-.sidebar_img {
+.sidebar_img{
   width: 200px; 
   margin-bottom: 10px;
   border: 1px solid #ccc;

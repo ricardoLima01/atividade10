@@ -48,4 +48,5 @@ main {
   flex-grow: 1;
   padding: 20px;
   color: white;
+  background-color: red;
 }
